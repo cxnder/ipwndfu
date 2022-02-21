@@ -702,6 +702,14 @@ mypy-extensions = ">=0.3.0"
 typing-extensions = ">=3.7.4"
 
 [[package]]
+name = "unicorn"
+version = "1.0.3"
+description = "Unicorn CPU emulator engine"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "virtualenv"
 version = "20.13.1"
 description = "Virtual Python Environment builder"
@@ -730,7 +738,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "dc17a7f96fb5f9528230726852953a626dae56c23d0c0f1fcfcf8b3dd18a80b4"
+content-hash = "7ab111f572ba8cd756f4b2460db06e764c540d6c65e74e3cbabad1e316be3b33"
 
 [metadata.files]
 astor = [
@@ -1215,6 +1223,14 @@ typing-inspect = [
     {file = "typing_inspect-0.7.1-py2-none-any.whl", hash = "sha256:b1f56c0783ef0f25fb064a01be6e5407e54cf4a4bf4f3ba3fe51e0bd6dcea9e5"},
     {file = "typing_inspect-0.7.1-py3-none-any.whl", hash = "sha256:3cd7d4563e997719a710a3bfe7ffb544c6b72069b6812a02e9b414a8fa3aaa6b"},
     {file = "typing_inspect-0.7.1.tar.gz", hash = "sha256:047d4097d9b17f46531bf6f014356111a1b6fb821a24fe7ac909853ca2a782aa"},
+]
+unicorn = [
+    {file = "unicorn-1.0.3-py2.py3-none-macosx_10_14_x86_64.whl", hash = "sha256:23f842ce919fcba1a1a1d54471951cf41a4fbf34fd64a09545ed0f1250f9919c"},
+    {file = "unicorn-1.0.3-py2.py3-none-manylinux1_i686.whl", hash = "sha256:bc98daeff337a8edfd2bc45d7712d105c35083c55c9a85970f0a237dd9ba226b"},
+    {file = "unicorn-1.0.3-py2.py3-none-manylinux1_x86_64.whl", hash = "sha256:9121ba837e7bb25ece2a93d115f87a8e53e243dc06c60d2e91c4302073068ad7"},
+    {file = "unicorn-1.0.3-py2.py3-none-win32.whl", hash = "sha256:7e63a87fe1d235a8a731baf06bc4dfd3615247af440f8ea54b34834835a55e77"},
+    {file = "unicorn-1.0.3-py2.py3-none-win_amd64.whl", hash = "sha256:1f719f86fe0d41a0c6b65de4fce17b6f06791cf5eff5b228b6c05de5c49162e8"},
+    {file = "unicorn-1.0.3.tar.gz", hash = "sha256:08fd3616de4ad97ffcbddd3c40d3afb0bd789956b5a1e8905be90042b9706541"},
 ]
 virtualenv = [
     {file = "virtualenv-20.13.1-py2.py3-none-any.whl", hash = "sha256:45e1d053cad4cd453181ae877c4ffc053546ae99e7dd049b9ff1d9be7491abf7"},
